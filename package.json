@@ -1,0 +1,17 @@
+{
+  "name": "node_img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.10.8",
+    "pug": "^2.0.0-rc.4"
+  }
+}

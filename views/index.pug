@@ -1,0 +1,7 @@
+extends layout
+
+block content	
+	h1 #{title}
+	ul
+		each image, i in images
+			li = image.name + ", "+ image.url
